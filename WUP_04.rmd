@@ -68,8 +68,10 @@ par(mar = c(3, 15.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-In the data, High School Graduate and Lt High School-Graduate are   difference since 0 does not go through the data at any point at all.   Meaning there is a diffrence in some way  
+In the data, High School Graduate and Lt High School-Graduate are   difference since 0 does not go through the data at any point at all.   Meaning there is a difference in some way  
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+In conclusion with all the data and data charts, I disagree with the   hypothesis stating that there is no difference between the average   score on the WORDSUM test and level of schooling DEGREE, and I'm   agreeing with the alternate hypothesis that there is a difference   between each degree group and their word sum.  
 
