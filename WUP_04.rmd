@@ -41,11 +41,17 @@ basicCN <- ggplot(mydata,aes(x=DEGREE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
 
-The median of each schooling degree have a difference word sum, where some   are higher or lower then others. Showing a clear difference between   diffrent degrees and their word count.  
+The median of each schooling degree have a difference word sum, where some   are higher or lower then others. Showing a clear difference between  different degrees and their word count.  
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=mydata)
+```
+The numerical data shows that even down to decimals the means, min, max   word sum of each group is different from one another.  
+
 
 ## Inferential Results
 
